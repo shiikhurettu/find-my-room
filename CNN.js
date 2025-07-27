@@ -1,0 +1,422 @@
+const cnnfac=[
+  {
+    "Faculty": "D. KOTHANDARAMAN",
+    "Slot": "B1+TB1",
+    "Venue": "216"
+  },
+  {
+    "Faculty": "MOHINDER SINGH. B",
+    "Slot": "B1+TB1",
+    "Venue": "218"
+  },
+  {
+    "Faculty": "KARROTHU ARAVIND",
+    "Slot": "B1+TB1",
+    "Venue": "225"
+  },
+  {
+    "Faculty": "D. PAUL JOSEPH",
+    "Slot": "B1+TB1",
+    "Venue": "ONL00146"
+  },
+  {
+    "Faculty": "SHAIK ASMEEN",
+    "Slot": "B1+TB1",
+    "Venue": "220"
+  },
+  {
+    "Faculty": "D. KOTHANDARAMAN",
+    "Slot": "B2+TB2",
+    "Venue": "216"
+  },
+  {
+    "Faculty": "DR. MISHA",
+    "Slot": "B2+TB2",
+    "Venue": "217"
+  },
+  {
+    "Faculty": "MOHINDER SINGH. B",
+    "Slot": "B2+TB2",
+    "Venue": "218"
+  },
+  {
+    "Faculty": "RAMKUMAR D",
+    "Slot": "B2+TB2",
+    "Venue": "219"
+  },
+  {
+    "Faculty": "PALADUGU TANUSHA",
+    "Slot": "B2+TB2",
+    "Venue": "225"
+  },
+  {
+    "Faculty": "SHAIK ASMEEN",
+    "Slot": "B2+TB2",
+    "Venue": "220"
+  },
+  {
+    "Faculty": "Prof.Kumar Debasis",
+    "Slot": "C1+TC1",
+    "Venue": "225"
+  },
+  {
+    "Faculty": "Prof.Surendra Reddy Vinta",
+    "Slot": "C1+TC1",
+    "Venue": "314"
+  },
+  {
+    "Faculty": "Prof.Anil Vitthalrao Turukmane",
+    "Slot": "C1+TC1",
+    "Venue": "231"
+  },
+  {
+    "Faculty": "D. PAUL JOSEPH",
+    "Slot": "C1+TCC1",
+    "Venue": "110"
+  },
+  {
+    "Faculty": "Prof.Prabha Selvaraj",
+    "Slot": "C2+TC2",
+    "Venue": "317"
+  },
+  {
+    "Faculty": "KOMMERLA SIVA KUMAR",
+    "Slot": "C2+TC2",
+    "Venue": "318A"
+  },
+  {
+    "Faculty": "DEEPTHI GODAVARTHI",
+    "Slot": "C2+TC2",
+    "Venue": "422"
+  },
+  {
+    "Faculty": "Prof.Tauseef Khan",
+    "Slot": "C2+TC2",
+    "Venue": "424"
+  },
+  {
+    "Faculty": "G.HARANADHA BABU",
+    "Slot": "C2+TC2",
+    "Venue": "425"
+  },
+  {
+    "Faculty": "PARIMALA NALLAMOTU",
+    "Slot": "C2+TC2",
+    "Venue": "423"
+  },
+  {
+    "Faculty": "RAJKUMAR YESURAJ",
+    "Slot": "D1+TD1",
+    "Venue": "226"
+  },
+  {
+    "Faculty": "Prof.Bommareddy Lokesh",
+    "Slot": "D1+TD1",
+    "Venue": "231"
+  },
+  {
+    "Faculty": "SHAIK SHAHANAZ",
+    "Slot": "D1+TD1",
+    "Venue": "315"
+  },
+  {
+    "Faculty": "PALADUGU TANUSHA",
+    "Slot": "D1+TD1",
+    "Venue": "316"
+  },
+  {
+    "Faculty": "GOKUL YENDURI",
+    "Slot": "D1+TDD1",
+    "Venue": "314"
+  },
+  {
+    "Faculty": "DR. HELEN SHARMILA A",
+    "Slot": "D2+TD2",
+    "Venue": "317"
+  },
+  {
+    "Faculty": "Prof.Bommareddy Lokesh",
+    "Slot": "D2+TD2",
+    "Venue": "318A"
+  },
+  {
+    "Faculty": "SHAIK SHAHANAZ",
+    "Slot": "D2+TD2",
+    "Venue": "422"
+  },
+  {
+    "Faculty": "PARIMALA NALLAMOTU",
+    "Slot": "D2+TD2",
+    "Venue": "424"
+  },
+  {
+    "Faculty": "RAJKUMAR YESURAJ",
+    "Slot": "D2+TDD2",
+    "Venue": "316"
+  },
+  {
+    "Faculty": "DR. MISHA",
+    "Slot": "B1+TB1",
+    "Venue": "217"
+  },
+  {
+    "Faculty": "RAMKUMAR D",
+    "Slot": "B1+TB1",
+    "Venue": "219"
+  },
+  {
+    "Faculty": "Prof.Nandha Kumar R",
+    "Slot": "B2+TB2",
+    "Venue": "G14"
+  },
+  {
+    "Faculty": "DR. DEEPANRAMKUMAR P",
+    "Slot": "C1+TC1",
+    "Venue": "226"
+  },
+  {
+    "Faculty": "DEEPTHI GODAVARTHI",
+    "Slot": "C1+TC1",
+    "Venue": "230"
+  },
+  {
+    "Faculty": "G.HARANADHA BABU",
+    "Slot": "C1+TCC1",
+    "Venue": "111"
+  },
+  {
+    "Faculty": "Prof.Kumar Debasis",
+    "Slot": "C2+TCC2",
+    "Venue": "G11"
+  },
+  {
+    "Faculty": "Prof.Mukkoti Maruthi Venkata Chalapathi",
+    "Slot": "D2+TD2",
+    "Venue": "423"
+  },
+  {
+    "Faculty": "DR. HELEN SHARMILA A",
+    "Slot": "D1+TD1",
+    "Venue": "230"
+  },
+  {
+    "Faculty": "Prof.Prabha Selvaraj",
+    "Slot": "L10+L11",
+    "Venue": "404"
+  },
+  {
+    "Faculty": "Prof.SCOPE Dig Crs Faculty-9",
+    "Slot": "L10+L11",
+    "Venue": "409"
+  },
+  {
+    "Faculty": "Prof.Mukkoti Maruthi Venkata Chalapathi",
+    "Slot": "L14+L15",
+    "Venue": "409"
+  },
+  {
+    "Faculty": "Prof.Bommareddy Lokesh",
+    "Slot": "L20+L21",
+    "Venue": "101"
+  },
+  {
+    "Faculty": "DR. HELEN SHARMILA A",
+    "Slot": "L22+L23",
+    "Venue": "G32"
+  },
+  {
+    "Faculty": "DEEPTHI GODAVARTHI",
+    "Slot": "L22+L23",
+    "Venue": "101"
+  },
+  {
+    "Faculty": "PARIMALA NALLAMOTU",
+    "Slot": "L22+L23",
+    "Venue": "121"
+  },
+  {
+    "Faculty": "Prof.Bommareddy Lokesh",
+    "Slot": "L26+L27",
+    "Venue": "105"
+  },
+  {
+    "Faculty": "SHAIK SHAHANAZ",
+    "Slot": "L26+L27",
+    "Venue": "106"
+  },
+  {
+    "Faculty": "DEEPTHI GODAVARTHI",
+    "Slot": "L28+L29",
+    "Venue": "106"
+  },
+  {
+    "Faculty": "SHAIK ASMEEN",
+    "Slot": "L28+L29",
+    "Venue": "213"
+  },
+  {
+    "Faculty": "KOMMERLA SIVA KUMAR",
+    "Slot": "L2+L3",
+    "Venue": "301"
+  },
+  {
+    "Faculty": "Prof.Nandha Kumar R",
+    "Slot": "L31+L32",
+    "Venue": "122"
+  },
+  {
+    "Faculty": "PARIMALA NALLAMOTU",
+    "Slot": "L31+L32",
+    "Venue": "301"
+  },
+  {
+    "Faculty": "Prof.SCOPE Dig Crs Faculty-7",
+    "Slot": "L33+L34",
+    "Venue": "115"
+  },
+  {
+    "Faculty": "GORREMUCHU BEULAH RANI",
+    "Slot": "L35+L36",
+    "Venue": "106"
+  },
+  {
+    "Faculty": "PALADUGU TANUSHA",
+    "Slot": "L37+L38",
+    "Venue": "102"
+  },
+  {
+    "Faculty": "VISHNUPRIYA BORRA",
+    "Slot": "L37+L38",
+    "Venue": "301"
+  },
+  {
+    "Faculty": "G.HARANADHA BABU",
+    "Slot": "L39+L40",
+    "Venue": "119"
+  },
+  {
+    "Faculty": "GORREMUCHU BEULAH RANI",
+    "Slot": "L39+L40",
+    "Venue": "213"
+  },
+  {
+    "Faculty": "RAJKUMAR YESURAJ",
+    "Slot": "L41+L42",
+    "Venue": "209"
+  },
+  {
+    "Faculty": "SANKURU RAVI PRAKASH",
+    "Slot": "L41+L42",
+    "Venue": "106"
+  },
+  {
+    "Faculty": "D. KOTHANDARAMAN",
+    "Slot": "L43+L44",
+    "Venue": "121"
+  },
+  {
+    "Faculty": "Prof.SCOPE Dig Crs Faculty-8",
+    "Slot": "L45+L46",
+    "Venue": "201"
+  },
+  {
+    "Faculty": "SHAIK ASMEEN",
+    "Slot": "L45+L46",
+    "Venue": "122"
+  },
+  {
+    "Faculty": "Prof.SCOPE Dig Crs Faculty-9",
+    "Slot": "L47+L48",
+    "Venue": "228"
+  },
+  {
+    "Faculty": "GORREMUCHU BEULAH RANI",
+    "Slot": "L47+L48",
+    "Venue": "301"
+  },
+  {
+    "Faculty": "Prof.SCOPE Dig Crs Faculty-9",
+    "Slot": "L49+L50",
+    "Venue": "209"
+  },
+  {
+    "Faculty": "KOMMERLA SIVA KUMAR",
+    "Slot": "L51+L52",
+    "Venue": "409"
+  },
+  {
+    "Faculty": "SANKURU RAVI PRAKASH",
+    "Slot": "L51+L52",
+    "Venue": "228"
+  },
+  {
+    "Faculty": "DR. MISHA",
+    "Slot": "L55+L56",
+    "Venue": "G32"
+  },
+  {
+    "Faculty": "GORREMUCHU BEULAH RANI",
+    "Slot": "L8+L9",
+    "Venue": "311"
+  },
+  {
+    "Faculty": "MOHINDER SINGH. B",
+    "Slot": "L37+L38",
+    "Venue": "201"
+  },
+  {
+    "Faculty": "DR. MISHA",
+    "Slot": "L43+L44",
+    "Venue": "306"
+  },
+  {
+    "Faculty": "Prof.Nandha Kumar R",
+    "Slot": "L4+L5",
+    "Venue": "101"
+  },
+  {
+    "Faculty": "G.HARANADHA BABU",
+    "Slot": "L53+L54",
+    "Venue": "115"
+  },
+  {
+    "Faculty": "Prof.Mukkoti Maruthi Venkata Chalapathi",
+    "Slot": "L33+L34",
+    "Venue": "121"
+  },
+  {
+    "Faculty": "PALADUGU TANUSHA",
+    "Slot": "L20+L21",
+    "Venue": "G04"
+  },
+  {
+    "Faculty": "SHAIK SHAHANAZ",
+    "Slot": "L2+L3",
+    "Venue": "G04"
+  },
+  {
+    "Faculty": "MOHINDER SINGH. B",
+    "Slot": "L51+L52",
+    "Venue": "G04"
+  },
+  {
+    "Faculty": "SANKURU RAVI PRAKASH",
+    "Slot": "L8+L9",
+    "Venue": "G04"
+  },
+  {
+    "Faculty": "SANKURU RAVI PRAKASH",
+    "Slot": "L14+L15",
+    "Venue": "G03"
+  },
+  {
+    "Faculty": "D. KOTHANDARAMAN",
+    "Slot": "L55+L56",
+    "Venue": "G03"
+  },
+  {
+    "Faculty": "DR. HELEN SHARMILA A",
+    "Slot": "L49+L50",
+    "Venue": "G04"
+  }
+]

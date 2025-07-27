@@ -1,0 +1,192 @@
+const stsfac=[
+  {
+    "faculty": "ARIVARASAN A",
+    "slot": "E1+TE1",
+    "venue": "302"
+  },
+  {
+    "faculty": "Prof Harshavardhan",
+    "slot": "A1+TA1",
+    "venue": "302"
+  },
+  {
+    "faculty": "Prof Harshavardhan",
+    "slot": "A2+TA2",
+    "venue": "303"
+  },
+  {
+    "faculty": "Prof Harshavardhan",
+    "slot": "B1+TB1",
+    "venue": "302"
+  },
+  {
+    "faculty": "Prof Harshavardhan",
+    "slot": "B2+TB2",
+    "venue": "302"
+  },
+  {
+    "faculty": "Prof Harshavardhan",
+    "slot": "G1+TG1",
+    "venue": "303"
+  },
+  {
+    "faculty": "Prof Harshavardhan",
+    "slot": "D2+TDD2",
+    "venue": "303"
+  },
+  {
+    "faculty": "SRAVANI",
+    "slot": "F1+TFF1",
+    "venue": "303"
+  },
+  {
+    "faculty": "SRAVANI",
+    "slot": "A1+TA1",
+    "venue": "307"
+  },
+  {
+    "faculty": "SRAVANI",
+    "slot": "A2+TA2",
+    "venue": "302"
+  },
+  {
+    "faculty": "SRAVANI",
+    "slot": "B1+TB1",
+    "venue": "307"
+  },
+  {
+    "faculty": "SRAVANI",
+    "slot": "C2+TC2",
+    "venue": "307"
+  },
+  {
+    "faculty": "SRAVANI",
+    "slot": "D2+TD2",
+    "venue": "307"
+  },
+  {
+    "faculty": "YAMUNA DURGA A",
+    "slot": "D1+TD1",
+    "venue": "302"
+  },
+  {
+    "faculty": "YAMUNA DURGA A",
+    "slot": "E2+TE2",
+    "venue": "302"
+  },
+  {
+    "faculty": "YAMUNA DURGA A",
+    "slot": "F1+TF1",
+    "venue": "302"
+  },
+  {
+    "faculty": "Prof.Pandi Soundarya",
+    "slot": "F2+TF2",
+    "venue": "302"
+  },
+  {
+    "faculty": "Prof.Pandi Soundarya",
+    "slot": "B2+TB2",
+    "venue": "303"
+  },
+  {
+    "faculty": "Prof.Pandi Soundarya",
+    "slot": "C1+TCC1",
+    "venue": "303"
+  },
+  {
+    "faculty": "PRADEEP В",
+    "slot": "A1+TA1",
+    "venue": "303"
+  },
+  {
+    "faculty": "MANOJ D",
+    "slot": "A2+TA2",
+    "venue": "307"
+  },
+  {
+    "faculty": "PRADEEP В",
+    "slot": "B1+TB1",
+    "venue": "303"
+  },
+  {
+    "faculty": "PRADEEP В",
+    "slot": "B2+TB2",
+    "venue": "307"
+  },
+  {
+    "faculty": "Prof. Bhavya",
+    "slot": "C1+TC1",
+    "venue": "302"
+  },
+  {
+    "faculty": "MANOJ D",
+    "slot": "C1+TC1",
+    "venue": "307"
+  },
+  {
+    "faculty": "Prof. Bhavya",
+    "slot": "C2+TC2",
+    "venue": "302"
+  },
+  {
+    "faculty": "Prof. Sudharshan",
+    "slot": "C2+TCC2",
+    "venue": "303"
+  },
+  {
+    "faculty": "Prof. Bhavya",
+    "slot": "D1+TD1",
+    "venue": "307"
+  },
+  {
+    "faculty": "MANOJ D",
+    "slot": "D1+TDD1",
+    "venue": "303"
+  },
+  {
+    "faculty": "Prof. Bhavya",
+    "slot": "D2+TD2",
+    "venue": "302"
+  },
+  {
+    "faculty": "Prof. Bhavya",
+    "slot": "E1+TE1",
+    "venue": "303"
+  },
+  {
+    "faculty": "MANOJ D",
+    "slot": "E1+TE1",
+    "venue": "307"
+  },
+  {
+    "faculty": "Prof. Sudharshan",
+    "slot": "E2+TE2",
+    "venue": "303"
+  },
+  {
+    "faculty": "MANOJ D",
+    "slot": "E2+TE2",
+    "venue": "307"
+  },
+  {
+    "faculty": "Prof. Sudharshan",
+    "slot": "F1+TF1",
+    "venue": "307"
+  },
+  {
+    "faculty": "Prof. Sudharshan",
+    "slot": "F2+TF2",
+    "venue": "307"
+  },
+  {
+    "faculty": "Prof. Bhavya",
+    "slot": "F2+TFF2",
+    "venue": "303"
+  },
+  {
+    "faculty": "MANOJ D",
+    "slot": "G2+TG2",
+    "venue": "303"
+  }
+]

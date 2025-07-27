@@ -1,0 +1,422 @@
+const daafac=[
+  {
+    "faculty": "KAILASH CHANDRA MISHRA",
+    "slot": "D1+TD1",
+    "venue": "216"
+  },
+  {
+    "faculty": "SHALINI",
+    "slot": "D1+TD1",
+    "venue": "217"
+  },
+  {
+    "faculty": "Prof.Udit Narayana Kar",
+    "slot": "D1+TD1",
+    "venue": "218"
+  },
+  {
+    "faculty": "Prof.Somya Ranjan Sahoo",
+    "slot": "D1+TD1",
+    "venue": "220"
+  },
+  {
+    "faculty": "Prof.Manomita Chakraborty",
+    "slot": "D1+TD1",
+    "venue": "225"
+  },
+  {
+    "faculty": "PADMAVATHI LAMBU",
+    "slot": "D1+TDD1",
+    "venue": "105"
+  },
+  {
+    "faculty": "SHAIK RESHMA",
+    "slot": "D1+TDD1",
+    "venue": "219"
+  },
+  {
+    "faculty": "Prof.Jonnadula Harikiran",
+    "slot": "D2+TD2",
+    "venue": "112"
+  },
+  {
+    "faculty": "PAIDIPOGU SOWJANYA",
+    "slot": "D2+TD2",
+    "venue": "113"
+  },
+  {
+    "faculty": "Prof.Udit Narayana Kar",
+    "slot": "D2+TD2",
+    "venue": "230"
+  },
+  {
+    "faculty": "Prof.Manomita Chakraborty",
+    "slot": "D2+TD2",
+    "venue": "315"
+  },
+  {
+    "faculty": "SHAIK RESHMA",
+    "slot": "D2+TD2",
+    "venue": "314"
+  },
+  {
+    "faculty": "KAILASH CHANDRA MISHRA",
+    "slot": "D2+TDD2",
+    "venue": "226"
+  },
+  {
+    "faculty": "GANDLA SOWMYA",
+    "slot": "D2+TDD2",
+    "venue": "231"
+  },
+  {
+    "faculty": "Prof.Hemant Kumar Reddy",
+    "slot": "E1+TE1",
+    "venue": "218"
+  },
+  {
+    "faculty": "MONIKA.A",
+    "slot": "E1+TE1",
+    "venue": "219"
+  },
+  {
+    "faculty": "PAIDIPOGU SOWJANYA",
+    "slot": "E1+TE1",
+    "venue": "220"
+  },
+  {
+    "faculty": "N LAKSHMIPATHI ANANTHA",
+    "slot": "E1+TE1",
+    "venue": "225"
+  },
+  {
+    "faculty": "PECHETTI MOUNIKA",
+    "slot": "E1+TE1",
+    "venue": "226"
+  },
+  {
+    "faculty": "DHANIKONDA RATNA BHAVANI",
+    "slot": "E1+TE1",
+    "venue": "230"
+  },
+  {
+    "faculty": "Prof.Yamarthi Narasimha Rao",
+    "slot": "E2+TE2",
+    "venue": "219"
+  },
+  {
+    "faculty": "MONIKA.A",
+    "slot": "E2+TE2",
+    "venue": "220"
+  },
+  {
+    "faculty": "Prof.Sachi Nandan Mohanty",
+    "slot": "E2+TE2",
+    "venue": "225"
+  },
+  {
+    "faculty": "N LAKSHMIPATHI ANANTHA",
+    "slot": "E2+TE2",
+    "venue": "226"
+  },
+  {
+    "faculty": "PECHETTI MOUNIKA",
+    "slot": "E2+TE2",
+    "venue": "230"
+  },
+  {
+    "faculty": "DHANIKONDA RATNA BHAVANI",
+    "slot": "E2+TE2",
+    "venue": "231"
+  },
+  {
+    "faculty": "Prof.Vikash Kumar Singh",
+    "slot": "F1+TF1",
+    "venue": "107"
+  },
+  {
+    "faculty": "PADMAVATHI LAMBU",
+    "slot": "F1+TF1",
+    "venue": "226"
+  },
+  {
+    "faculty": "MAHABOOBSUBHANI SHAIK CH",
+    "slot": "F1+TF1",
+    "venue": "231"
+  },
+  {
+    "faculty": "Prof.SRINIVASARAO GORAPALLI",
+    "slot": "F1+TF1",
+    "venue": "314"
+  },
+  {
+    "faculty": "GANDLA SOWMYA",
+    "slot": "F1+TF1",
+    "venue": "230"
+  },
+  {
+    "faculty": "Prof.Dasari Venkata Lakshmi",
+    "slot": "F2+TF2",
+    "venue": "214"
+  },
+  {
+    "faculty": "Prof.Eswaraiah Rayachoti",
+    "slot": "F2+TF2",
+    "venue": "215"
+  },
+  {
+    "faculty": "Prof.Naga Jagadesh Bommagani",
+    "slot": "F2+TF2",
+    "venue": "217"
+  },
+  {
+    "faculty": "NIHAR RANJAN PRADHAN",
+    "slot": "F2+TF2",
+    "venue": "218"
+  },
+  {
+    "faculty": "MAHABOOBSUBHANI SHAIK CH",
+    "slot": "F2+TF2",
+    "venue": "219"
+  },
+  {
+    "faculty": "Prof.SRINIVASARAO GORAPALLI",
+    "slot": "F2+TF2",
+    "venue": "220"
+  },
+  {
+    "faculty": "TANIKELLA DIVYA NAGA PAVANI",
+    "slot": "F2+TFF2",
+    "venue": "216"
+  },
+  {
+    "faculty": "TANIKELLA DIVYA NAGA PAVANI",
+    "slot": "F1+TFF1",
+    "venue": "413"
+  },
+  {
+    "faculty": "Prof.SCOPE Dig Crs Faculty-10",
+    "slot": "F1+TFF1",
+    "venue": "412"
+  },
+  {
+    "faculty": "KAILASH CHANDRA MISHRA",
+    "slot": "L10+L11",
+    "venue": "101"
+  },
+  {
+    "faculty": "Prof.Manomita Chakraborty",
+    "slot": "L10+L11",
+    "venue": "306"
+  },
+  {
+    "faculty": "Prof.Eswaraiah Rayachoti",
+    "slot": "L14+L15",
+    "venue": "311"
+  },
+  {
+    "faculty": "Prof.SRINIVASARAO GORAPALLI",
+    "slot": "L14+L15",
+    "venue": "404"
+  },
+  {
+    "faculty": "Prof.Dasari Venkata Lakshmi",
+    "slot": "L20+L21",
+    "venue": "301"
+  },
+  {
+    "faculty": "Prof.Sachi Nandan Mohanty",
+    "slot": "L20+L21",
+    "venue": "409"
+  },
+  {
+    "faculty": "PADMAVATHI LAMBU",
+    "slot": "L26+L27",
+    "venue": "G32"
+  },
+  {
+    "faculty": "Prof.Jonnadula Harikiran",
+    "slot": "L28+L29",
+    "venue": "105"
+  },
+  {
+    "faculty": "SHAIK RESHMA",
+    "slot": "L28+L29",
+    "venue": "119"
+  },
+  {
+    "faculty": "Prof.Manomita Chakraborty",
+    "slot": "L2+L3",
+    "venue": "119"
+  },
+  {
+    "faculty": "Prof.Naga Jagadesh Bommagani",
+    "slot": "L2+L3",
+    "venue": "404"
+  },
+  {
+    "faculty": "DHANIKONDA RATNA BHAVANI",
+    "slot": "L2+L3",
+    "venue": "201"
+  },
+  {
+    "faculty": "Prof.Jonnadula Harikiran",
+    "slot": "L31+L32",
+    "venue": "301"
+  },
+  {
+    "faculty": "Prof.Vikash Kumar Singh",
+    "slot": "L31+L32",
+    "venue": "213"
+  },
+  {
+    "faculty": "NIHAR RANJAN PRADHAN",
+    "slot": "L33+L34",
+    "venue": "122"
+  },
+  {
+    "faculty": "Prof.Naga Jagadesh Bommagani",
+    "slot": "L33+L34",
+    "venue": "213"
+  },
+  {
+    "faculty": "PAIDIPOGU SOWJANYA",
+    "slot": "L33+L34",
+    "venue": "119"
+  },
+  {
+    "faculty": "Prof.SCOPE Dig Crs Faculty-10",
+    "slot": "L35+L36",
+    "venue": "201"
+  },
+  {
+    "faculty": "N LAKSHMIPATHI ANANTHA",
+    "slot": "L37+L38",
+    "venue": "115"
+  },
+  {
+    "faculty": "PECHETTI MOUNIKA",
+    "slot": "L37+L38",
+    "venue": "101"
+  },
+  {
+    "faculty": "Prof.SIVANAGARAJU VALLABHUNI",
+    "slot": "L39+L40",
+    "venue": "101"
+  },
+  {
+    "faculty": "PADMAVATHI LAMBU",
+    "slot": "L39+L40",
+    "venue": "102"
+  },
+  {
+    "faculty": "SHAIK RESHMA",
+    "slot": "L39+L40",
+    "venue": "409"
+  },
+  {
+    "faculty": "Prof.SRINIVASARAO GORAPALLI",
+    "slot": "L41+L42",
+    "venue": "102"
+  },
+  {
+    "faculty": "TANIKELLA DIVYA NAGA PAVANI",
+    "slot": "L43+L44",
+    "venue": "105"
+  },
+  {
+    "faculty": "GANDLA SOWMYA",
+    "slot": "L43+L44",
+    "venue": "301"
+  },
+  {
+    "faculty": "N LAKSHMIPATHI ANANTHA",
+    "slot": "L45+L46",
+    "venue": "106"
+  },
+  {
+    "faculty": "DHANIKONDA RATNA BHAVANI",
+    "slot": "L45+L46",
+    "venue": "121"
+  },
+  {
+    "faculty": "MAHABOOBSUBHANI SHAIK CH",
+    "slot": "L47+L48",
+    "venue": "122"
+  },
+  {
+    "faculty": "Prof.Somya Ranjan Sahoo",
+    "slot": "L49+L50",
+    "venue": "301"
+  },
+  {
+    "faculty": "PAIDIPOGU SOWJANYA",
+    "slot": "L4+L5",
+    "venue": "301"
+  },
+  {
+    "faculty": "Prof.Hemant Kumar Reddy",
+    "slot": "L51+L52",
+    "venue": "404"
+  },
+  {
+    "faculty": "ANANTHA HARITHA",
+    "slot": "L51+L52",
+    "venue": "209"
+  },
+  {
+    "faculty": "ANANTHA HARITHA",
+    "slot": "L53+L54",
+    "venue": "209"
+  },
+  {
+    "faculty": "Prof.Hemant Kumar Reddy",
+    "slot": "L55+L56",
+    "venue": "228"
+  },
+  {
+    "faculty": "NIHAR RANJAN PRADHAN",
+    "slot": "L55+L56",
+    "venue": "301"
+  },
+  {
+    "faculty": "MONIKA.A",
+    "slot": "L8+L9",
+    "venue": "301"
+  },
+  {
+    "faculty": "Prof.SCOPE Dig Crs Faculty-11",
+    "slot": "L8+L9",
+    "venue": "306"
+  },
+  {
+    "faculty": "KAILASH CHANDRA MISHRA",
+    "slot": "L22+L23",
+    "venue": "G04"
+  },
+  {
+    "faculty": "Prof.Eswaraiah Rayachoti",
+    "slot": "L26+L27",
+    "venue": "G04"
+  },
+  {
+    "faculty": "PECHETTI MOUNIKA",
+    "slot": "L4+L5",
+    "venue": "G04"
+  },
+  {
+    "faculty": "TANIKELLA DIVYA NAGA PAVANI",
+    "slot": "L20+L21",
+    "venue": "G03"
+  },
+  {
+    "faculty": "Prof.Yamarthi Narasimha Rao",
+    "slot": "L22+L23",
+    "venue": "G03"
+  },
+  {
+    "faculty": "ANANTHA HARITHA",
+    "slot": "L49+L50",
+    "venue": "202"
+  }
+]

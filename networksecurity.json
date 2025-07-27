@@ -1,0 +1,77 @@
+[
+  {
+    "faculty": "KARROTHU ARAVIND",
+    "slot": "B2+TB2",
+    "venue": "422"
+  },
+  {
+    "faculty": "KARROTHU ARAVIND",
+    "slot": "C2+TC2",
+    "venue": "215"
+  },
+  {
+    "faculty": "SAMBASIVA RAO GUMMA",
+    "slot": "F1+TF1",
+    "venue": "422"
+  },
+  {
+    "faculty": "SHAJAN JOSEPH",
+    "slot": "F1+TF1",
+    "venue": "G14"
+  },
+  {
+    "faculty": "SHAJAN JOSEPH",
+    "slot": "C1+TC1",
+    "venue": "322"
+  },
+  {
+    "faculty": "ODNALA SRINIVAS",
+    "slot": "B1+TB1",
+    "venue": "316"
+  },
+  {
+    "faculty": "Prof.Sibi Chakkaravarthy S",
+    "slot": "F2+TF2",
+    "venue": "G13"
+  },
+  {
+    "faculty": "SAMBASIVA RAO GUMMA",
+    "slot": "L2+L3",
+    "venue": "114"
+  },
+  {
+    "faculty": "ODNALA SRINIVAS",
+    "slot": "L43+L44",
+    "venue": "301"
+  },
+  {
+    "faculty": "SAMBASIVA RAO GUMMA",
+    "slot": "L47+L48",
+    "venue": "201"
+  },
+  {
+    "faculty": "KARROTHU ARAVIND",
+    "slot": "L37+L38",
+    "venue": "G32"
+  },
+  {
+    "faculty": "ODNALA SRINIVAS",
+    "slot": "L41+L42",
+    "venue": "404"
+  },
+  {
+    "faculty": "KARROTHU ARAVIND",
+    "slot": "L55+L56",
+    "venue": "119"
+  },
+  {
+    "faculty": "Prof.Sibi Chakkaravarthy S",
+    "slot": "L26+L27",
+    "venue": "228"
+  },
+  {
+    "faculty": "Prof.Sibi Chakkaravarthy S",
+    "slot": "L45+L46",
+    "venue": "G04"
+  }
+]

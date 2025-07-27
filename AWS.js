@@ -1,0 +1,102 @@
+const awsfac=[
+  {
+    "Slot": "B1+TB1",
+    "Venue": "409",
+    "Faculty": "RUSHISWAR"
+  },
+  {
+    "Slot": "B2+TB2",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "B2+TB2",
+    "Venue": "409",
+    "Faculty": "RUSHISWAR"
+  },
+  {
+    "Slot": "A1+TA1",
+    "Venue": "409",
+    "Faculty": "RUSHISWAR"
+  },
+  {
+    "Slot": "B1+TB1",
+    "Venue": "405",
+    "Faculty": "Prof. Ethnus Faculty-4"
+  },
+  {
+    "Slot": "A2+TA2",
+    "Venue": "409",
+    "Faculty": "RUSHISWAR"
+  },
+  {
+    "Slot": "D2+TD2",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "F1+TFF1",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "F2+TFF2",
+    "Venue": "405",
+    "Faculty": "Prof. Ethnus Faculty-4"
+  },
+  {
+    "Slot": "A1+TA1",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "C2+TC2",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "C1+TC1",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "E2+TE2",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "D1+TD1",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "G1+TG1",
+    "Venue": "ONL00001",
+    "Faculty": "RUSHISWAR"
+  },
+  {
+    "Slot": "G2+TG2",
+    "Venue": "ONL00001",
+    "Faculty": "RUSHISWAR"
+  },
+  {
+    "Slot": "G1+TG1",
+    "Venue": "ONL00002",
+    "Faculty": "Prof Athithyan M"
+  },
+  {
+    "Slot": "G2+TG2",
+    "Venue": "ONL00002",
+    "Faculty": "Prof Athithyan M"
+  },
+  {
+    "Slot": "A2+TA2",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  },
+  {
+    "Slot": "E1+TE1",
+    "Venue": "405",
+    "Faculty": "Prof.Ethnus Faculty-4"
+  }
+]
