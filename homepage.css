@@ -13,7 +13,7 @@
     color: #fff;
     transform: scale(0.8);
     animation: appearGlow 0.8s ease-out forwards;
-    font-size: clamp(24px, 7vw, 60px);
+    font-size: clamp(35px, 7vw, 60px);
 
 }
 
